@@ -1,6 +1,6 @@
 # Download Image; replace link to $image to add your own image
 
-$image =  "https://www.vmi.edu/media/content-assets/images/academic-departments/computer-science/cydef/cydef/PARIKH-140x175.jpg"
+$image =  "https://raw.githubusercontent.com/wieckingcp23/CyDef_Projects/main/jumpscare.png"
 
 $i = -join($image,"?dl=1")
 iwr $i -O $env:TMP\i.png
