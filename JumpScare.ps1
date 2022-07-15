@@ -9,7 +9,7 @@ iwr https://github.com/I-Am-Jakoby/hak5-submissions/raw/main/OMG/Payloads/OMG-Ju
 
 # Download WAV file; replace link to $wav to add your own sound
 
-$wav = "https://github.com/wieckingcp23/CyDef_Projects/blob/main/Test.wav"
+$wav = "https://github.com/wieckingcp23/CyDef_Projects/raw/main/Test.wav"
 
 $w = -join($wav,"?dl=1")
 iwr $w -O $env:TMP\s.wav
